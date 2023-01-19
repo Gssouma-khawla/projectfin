@@ -1,0 +1,41 @@
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-eye"></a>
+
+
+
+
+
+.Services .box-container .box .fa-heart:hover,
+.Services .box-container .box .fa-eye:hover{
+ background: rgb(98, 33, 177);
+ color: #fff;
+}
+.Services .box-container .box .fa-heart{
+  right:-15rem;
+}
+.Services .box-container .box .fa-eye{
+   left:-15rem;
+}
+
+.Services .box-container .box:hover .fa-heart{
+    right:1.5rem;
+  }
+  .Services .box-container .box:hover .fa-eye{
+     left:1.5rem;
+  }
+
+
+
+
+  .Services .box-container .box .fa-heart,
+  .Services .box-container .box .fa-eye{
+  position: absolute;
+  top:1.5rem;
+  background: rgb(238, 238, 238);
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: rgb(2, 3, 3);
+  }
